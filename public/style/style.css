@@ -96,14 +96,7 @@ h2 {
     padding: 50px;
 }
 
-.box {
-    width: 150px;
-    height: 150px;
-    border: 4px solid #3882F6;
-    border-radius: 20px;
-}
-
-.boxRow {
+.flexthis {
     flex-shrink: 0;
     flex-wrap: wrap;
     display: flex;
@@ -111,29 +104,46 @@ h2 {
     gap: 50px;
 }
 
+.box {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
+/* .boxRow {
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+} */
+
 .boxText {
     font-weight: 100;
     width: 150px;
     text-align: center;
     color: #525B69;
+    padding-top: 4px;
+    padding-left: 4px;
 }
 
-.boxTextRow {
+/* .boxTextRow {
     flex-shrink: 0;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
     gap: 58px;
     padding: 5px;
-}
+} */
 
 /* SECTION 2 */
 
 .quote {
     background-color: #E5E7EB;
     padding: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .quoteText {
@@ -156,8 +166,8 @@ h2 {
     padding: 50px 10%;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
@@ -200,5 +210,11 @@ footer {
     }
     .headerInt {
         flex-direction: column;
+    }
+    .singupBox {
+        flex-direction: column;
+    }
+    #signupbtn {
+        margin-top: 10px;
     }
 }
