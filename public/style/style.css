@@ -148,6 +148,45 @@ h2 {
     text-align: right;
 }
 
+/* SECTION 3 */
+
+.singupBox {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.singupText {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#signupbtn {
+    border: 3px solid #FFFFFF;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
 /* RESPONSIVE */
 @media(max-width: 996px) {
     .headerImg {
